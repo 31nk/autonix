@@ -2,10 +2,10 @@
 
 # Clone necessary repositories
 echo "Cloning NixOS configuration..."
-git clone https://github.com/yourusername/nixos-config ~/nixos-config
+git clone https://github.com/31nk/nixos-config ~/nixos-config
 
 echo "Cloning dotfiles..."
-git clone https://github.com/yourusername/dotfiles ~/dotfiles
+git clone https://github.com/31nk/dotfiles ~/dotfiles
 
 # Link Home Manager configuration
 mkdir -p ~/.config/home-manager
